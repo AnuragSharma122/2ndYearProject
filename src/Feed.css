@@ -1,0 +1,26 @@
+.feed{
+    flex: 0.8;
+    border-right: 1px solid grey;
+    /* min-width:fit-content; */
+    overflow-y: scroll;
+}
+.feed::-webkit-scrollbar{
+    display: none;
+}
+.feed__header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid grey;
+    padding-left: 15px;
+}
+.feed__header > h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+@media only screen and (max-width:700px) {
+    .feed{
+        flex: 0.8;
+    }
+  }

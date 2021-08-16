@@ -1,0 +1,26 @@
+.SidebarComponent{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.SidebarComponent:hover{
+    background-color: #e8f5fe;
+    border-radius: 30px;
+    color: red;
+    transform: color 100ms ease-out;
+}
+.SidebarComponent > .MuiSvgIcon-root{
+    padding: 20px;
+}
+.SidebarComponent > h2{
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width:700px) {
+    .SidebarComponent >h2{
+        display: none;
+    }
+}
+
